@@ -41,7 +41,7 @@ def save_numpy_array_data(file_path: str, array: np.array):
     except Exception as e:
         raise NetworkSecurityException(e, sys) from e
     
-def save_object(file_path: str, obj: object) -> None:
+def save_object(file_path: str, obj: object) -> None: # use to save pickle files
     try:
         logging.info("Entered the save_object method of MainUtils class")
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
