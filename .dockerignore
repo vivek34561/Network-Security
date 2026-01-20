@@ -1,0 +1,25 @@
+# Exclude local development files and caches from Docker build context
+myenv/
+__pycache__/
+*.pyc
+.git/
+.gitignore
+Notebooks/
+prediction_output/
+*.ipynb
+*.log
+.DS_Store
+Thumbs.db__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+Notebooks/
+.ipynb_checkpoints/
+
+.env
+.git/
+.dockerignore
+.DS_Store
+Thumbs.db
