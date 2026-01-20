@@ -49,7 +49,9 @@ Website 1 → Legitimate
 Website 2 → Phishing
 Website 3 → Suspicious
 
-Accuracy: 99.2%
+precision: 0.9890399837629389
+recall_score: 0.9926665308616827
+f1_score: 0.9908499389995933
 ```
 
 ⏱️ Prediction time: milliseconds per sample
