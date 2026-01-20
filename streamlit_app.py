@@ -82,7 +82,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # API endpoint
-API_URL = "http://localhost:8000"
+API_URL = "https://network-security-d48ca795d08e.herokuapp.com/"
 
 # Title and description
 st.title("🔒 Network Security - Phishing Detection System")
