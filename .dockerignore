@@ -2,24 +2,26 @@
 myenv/
 __pycache__/
 *.pyc
-.git/
-.gitignore
-Notebooks/
-prediction_output/
-*.ipynb
-*.log
-.DS_Store
-Thumbs.db__pycache__/
-*.pyc
 *.pyo
 *.pyd
-*.log
+.git/
+.gitignore
+.env
+.env.local
+.dockerignore
 
+# Notebooks and outputs
 Notebooks/
 .ipynb_checkpoints/
+prediction_output/
+logs/
+*.ipynb
+*.log
 
-.env
-.git/
-.dockerignore
+# OS specific
 .DS_Store
 Thumbs.db
+
+# Test files
+test_*.py
+*_test.py
