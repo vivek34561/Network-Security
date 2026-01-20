@@ -49,7 +49,7 @@ Website 1 → Legitimate
 Website 2 → Phishing
 Website 3 → Suspicious
 
-Accuracy: 95.2%
+Accuracy: 99.2%
 ```
 
 ⏱️ Prediction time: milliseconds per sample
