@@ -82,7 +82,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # API endpoint
-API_URL = "https://network-security-7l2u.onrender.com/"
+API_URL = "https://network-security-7l2u.onrender.com"
 
 # Title and description
 st.title("🔒 Network Security - Phishing Detection System")
